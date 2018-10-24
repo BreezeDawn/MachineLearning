@@ -64,7 +64,7 @@ def 矩阵():
     w = np.random.normal(size=(1, 3))  # 1行3列的高斯分布
     print(w)
 
-    w = -6 + np.sqrt(10) * np.random.random((1, 10000))  # 生成10000个元素
+    w = -6 + np.square(10) * np.random.random((1, 10000))  # 生成10000个元素
     print(w)
 
     ans = np.eye(3)  # 生成3×3单位矩阵
